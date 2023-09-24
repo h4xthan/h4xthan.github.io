@@ -3,124 +3,33 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto en blanco */
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #333;
+    background-color: #EE1C43; /* Rojo */
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 48px; /* Tamaño de fuente más grande */
     margin: 0;
 }
 
 /* Estilos para la sección de redes sociales */
 #redes-sociales {
-    background-color: #fff;
-    padding: 20px;/* Estilos para el cuerpo de la página */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #333; /* Fondo gris oscuro */
-        color: #fff; /* Texto en blanco */
-    }
-    
-    /* Estilos para el encabezado */
-    header {
-        background-color: #EE1C43; /* Rojo */
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-    }
-    
-    header h1 {
-        font-size: 48px; /* Tamaño de fuente más grande */
-        margin: 0;
-    }
-    
-    /* Estilos para la sección de redes sociales */
-    #redes-sociales {
-        background-color: #EE1C43; /* Rojo con transparencia */
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
-    }
-    
-    #redes-sociales h2 {
-        font-size: 30px; /* Tamaño de fuente más grande */
-    }
-    
-    #redes-sociales ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    #redes-sociales li {
-        margin-bottom: 10px;
-    }
-    
-    #redes-sociales a {
-        text-decoration: none;
-        color: #fff; /* Texto en blanco */
-        font-weight: bold;
-    }
-    
-    #redes-sociales a:hover {
-        color: #007bff; /* Color de enlace al pasar el cursor */
-    }
-    
-    #logo {
-        width: 100px; /* Ancho del logotipo */
-        position: absolute; /* Posición absoluta para superponer el contenido */
-        top: 20px; /* Distancia desde la parte superior */
-        left: 20px; /* Distancia desde la izquierda */
-        z-index: 1; /* Z-index para superponer el logotipo sobre el encabezado */
-    }
-    
-    /* Estilos para las secciones de habilidades y certificados */
-    section {
-        background-color: #EE1C43; /* Rojo con transparencia */
-        padding: 20px;
-        margin-top: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
-    }
-    
-    section h2 {
-        font-size: 30px; /* Tamaño de fuente más grande */
-    }
-    
-    section ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    section li {
-        margin-bottom: 10px;
-    }
-    
-    /* Cambiar el color de los enlaces en el pie de página */
-    footer a {
-        color: #ff0000; /* Rojo */
-    }
-    
-    /* Cambiar el color al pasar el cursor sobre los enlaces en el pie de página */
-    footer a:hover {
-        color: #fff; /* Texto en blanco */
-    }
-    
+    background-color: #EE1C43; /* Rojo con transparencia */
+    padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
 }
 
 #redes-sociales h2 {
-    font-size: 24px;
+    font-size: 30px; /* Tamaño de fuente más grande */
 }
 
 #redes-sociales ul {
@@ -134,25 +43,33 @@ header h1 {
 
 #redes-sociales a {
     text-decoration: none;
-    color: #333;
+    color: #fff; /* Texto en blanco */
     font-weight: bold;
 }
 
 #redes-sociales a:hover {
-    color: #007bff;
+    color: #007bff; /* Color de enlace al pasar el cursor */
+}
+
+#logo {
+    width: 100px; /* Ancho del logotipo */
+    position: absolute; /* Posición absoluta para superponer el contenido */
+    top: 20px; /* Distancia desde la parte superior */
+    left: 20px; /* Distancia desde la izquierda */
+    z-index: 1; /* Z-index para superponer el logotipo sobre el encabezado */
 }
 
 /* Estilos para las secciones de habilidades y certificados */
 section {
-    background-color: #fff;
+    background-color: #EE1C43; /* Rojo con transparencia */
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
 }
 
 section h2 {
-    font-size: 24px;
+    font-size: 30px; /* Tamaño de fuente más grande */
 }
 
 section ul {
@@ -162,4 +79,14 @@ section ul {
 
 section li {
     margin-bottom: 10px;
+}
+
+/* Cambiar el color de los enlaces en el pie de página */
+footer a {
+    color: #ff0000; /* Rojo */
+}
+
+/* Cambiar el color al pasar el cursor sobre los enlaces en el pie de página */
+footer a:hover {
+    color: #fff; /* Texto en blanco */
 }
