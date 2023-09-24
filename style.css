@@ -1,0 +1,73 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilos para la sección de redes sociales */
+#redes-sociales {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#redes-sociales h2 {
+    font-size: 24px;
+}
+
+#redes-sociales ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#redes-sociales li {
+    margin-bottom: 10px;
+}
+
+#redes-sociales a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#redes-sociales a:hover {
+    color: #007bff;
+}
+
+/* Estilos para las secciones de habilidades y certificados */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 10px;
+}
