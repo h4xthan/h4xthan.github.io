@@ -64,7 +64,7 @@ nav ul li a {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #13ba2f;
+    background-color: #1f6aa3;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -73,7 +73,7 @@ nav ul li a {
 }
 
 .cta-button:hover {
-    background-color: orange;
+    background-color: #08388a;
 }
 
 /* Fondo oscuro semi-transparente */
@@ -83,6 +83,6 @@ nav ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad según sea necesario */
-    z-index: 1; /* Para que la capa esté debajo del contenido */
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
