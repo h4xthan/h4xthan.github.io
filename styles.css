@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: white;
     background: url('dedsec.gif') no-repeat center center fixed;
     background-size: cover;
@@ -52,11 +52,13 @@ nav ul li a {
 .hero .content h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra en el texto */
 }
 
 .hero .content p {
     font-size: 1.2em;
     margin-bottom: 1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra en el texto */
 }
 
 .cta-button {
