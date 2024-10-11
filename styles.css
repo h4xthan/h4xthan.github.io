@@ -83,6 +83,6 @@ nav ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */
+    background-color: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad según sea necesario */
     z-index: 1; /* Para que la capa esté debajo del contenido */
 }
