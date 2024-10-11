@@ -16,6 +16,7 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    position: relative;
 }
 
 header {
@@ -45,6 +46,7 @@ nav ul li a {
     align-items: center;
     text-align: center;
     padding: 20px;
+    z-index: 2; /* Para asegurarse que el contenido esté encima de la capa de fondo */
 }
 
 .hero .content h1 {
@@ -70,4 +72,15 @@ nav ul li a {
 
 .cta-button:hover {
     background-color: orange;
+}
+
+/* Fondo oscuro semi-transparente */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */
+    z-index: 1; /* Para que la capa esté debajo del contenido */
 }
