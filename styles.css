@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    color: white;
+    color: #FFFFFF;
     background: url('dedsec.gif') no-repeat center center fixed;
     background-size: cover;
     display: flex;
@@ -44,7 +44,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -67,19 +67,21 @@ nav ul li a:hover {
     font-size: 2.5em;
     margin-bottom: 0.5em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
 }
 
 .hero .content p {
     font-size: 1.2em;
     margin-bottom: 1em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #9902f7;
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -88,7 +90,7 @@ nav ul li a:hover {
 
 .cta-button:hover {
     background-color: #44038a;
-    color: white;
+    color: #FFFFFF;
 }
 
 .overlay {
