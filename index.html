@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H4XTHAN - Ethical Hacker Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-effects">
+        <div class="bg-gradient"></div>
+        <div class="bg-grid"></div>
+        <div class="bg-scanlines"></div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/h4x_logo.png" alt="H4XTHAN Logo" class="logo-img">
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link" data-translate="nav_home">Home</a>
+                <a href="#about" class="nav-link" data-translate="nav_about">About</a>
+                <a href="#projects" class="nav-link" data-translate="nav_projects">Projects</a>
+                <a href="#certifications" class="nav-link" data-translate="nav_certifications">Certifications</a>
+                <a href="#education" class="nav-link" data-translate="nav_education">Education</a>
+                <a href="#contact" class="nav-link" data-translate="nav_contact">Contact</a>
+            </nav>
+            <!-- Added hamburger menu for mobile navigation -->
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <!-- Added mobile menu -->
+            <div class="mobile-menu">
+                <a href="#home" class="mobile-link" data-translate="nav_home">Home</a>
+                <a href="#about" class="mobile-link" data-translate="nav_about">About</a>
+                <a href="#projects" class="mobile-link" data-translate="nav_projects">Projects</a>
+                <a href="#certifications" class="mobile-link" data-translate="nav_certifications">Certifications</a>
+                <a href="#education" class="mobile-link" data-translate="nav_education">Education</a>
+                <a href="#contact" class="mobile-link" data-translate="nav_contact">Contact</a>
+            </div>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="de">DE</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 data-translate="hero_greeting">Hi, I'm</h1>
+                    <div class="glitch">
+                        <div class="line">H4XTHAN</div>
+                        <div class="line">H4XTHAN</div>
+                        <div class="line">H4XTHAN</div>
+                        <div class="line">H4XTHAN</div>
+                        <div class="line">H4XTHAN</div>
+                        <div class="line">H4XTHAN</div>
+                        <div class="line">H4XTHAN</div>
+                        <div class="line">H4XTHAN</div>
+                        <div class="line">H4XTHAN</div>
+                    </div>
+                    <p class="real-name">Ernesto Ramos</p>
+                    <p class="subtitle" data-translate="hero_subtitle">IT engineering student & ethical hacker</p>
+                </div>
+                <div class="hero-image">
+                    <img src="./images/h4x_logo.png" alt="H4XTHAN ASCII Art" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="about_title">About Me</h2>
+            <div class="about-content">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">whoami</span>
+                    </div>
+                    <div class="terminal-content">
+                        <p>$ whoami</p>
+                        <p class="output" data-translate="about_description">Ethical hacker specializing in penetration testing and CTF player.</p>
+                        <p>$ cat skills.txt</p>
+                        <p class="output" data-translate="about_skill1">- Penetration Testing</p>
+                        <p class="output" data-translate="about_skill2">- Web application security</p>
+                        <p class="output" data-translate="about_skill3">- Excellent handling of Linux systems</p>
+                        <p class="output" data-translate="about_skill4">- Scripting in Bash and Python</p>
+                        <p class="cursor">_</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="projects_title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/bash_logo.png" alt="Vulnerability Scanner" class="project-logo">
+                    </div>
+                    <div class="project-content">
+                        <h3>QuickSh</h3>
+                        <p data-translate="project1_desc">Tool made in Bash to calculate network information based on CIDR notation.</p>
+                        <div class="tech-stack">Bash</div>
+                        <a href="https://github.com/h4xthan/QuickSh" class="project-link" target="_blank" rel="noopener noreferrer" data-translate="view_project">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/ghostnet_logo.png" alt="Phishing Detector" class="project-logo">
+                    </div>
+                    <div class="project-content">
+                        <h3>GhostNet</h3>
+                        <p data-translate="project2_desc">Tool designed to test the security of a Wi-Fi network by performing deauthentication attacks.</p>
+                        <div class="tech-stack">Bash</div>
+                        <a href="https://github.com/h4xthan/ghostNet" class="project-link" target="_blank" rel="noopener noreferrer" data-translate="view_project">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/pwgen_logo.png" alt="Encrypted Chat" class="project-logo">
+                    </div>
+                    <div class="project-content">
+                        <h3>PasswordGenerator</h3>
+                        <p data-translate="project3_desc">Tool that generates passwords using string and random libraries</p>
+                        <div class="tech-stack">Python</div>
+                        <a href="https://github.com/h4xthan/PasswordGenerator" class="project-link" target="_blank" rel="noopener noreferrer" data-translate="view_project">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="cert_title">Certifications</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="cert-header">
+                            <h3 class="cert-title" data-translate="cert1_title">Linux environment customization</h3>
+                            <span class="cert-code">Code: 1852-1032-2918-3360</span>
+                        </div>
+                        <p class="cert-description" data-translate="cert1_desc">Knowledge acquired to customize a Linux system from scratch and convert it into a professional working environment for pentesting.</p>
+                        <a href="https://hack4u.io/check-certificate/" class="cert-link" target="_blank" rel="noopener noreferrer">
+                            <span data-translate="verify_cert">Verify Certificate</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="cert-header">
+                            <h3 class="cert-title" data-translate="cert2_title">Introduction to Linux</h3>
+                            <span class="cert-code">Code: 3404-5579-3054-1332</span>
+                        </div>
+                        <p class="cert-description" data-translate="cert2_desc">Knowledge acquired from beginner to intermediate-advanced level to be able to work on a Linux system.</p>
+                        <a href="https://hack4u.io/check-certificate/" class="cert-link" target="_blank" rel="noopener noreferrer">
+                            <span data-translate="verify_cert">Verify Certificate</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="cert-header">
+                            <h3 class="cert-title" data-translate="cert3_title">Introduction to hacking</h3>
+                            <span class="cert-code">Code: 2750-2140-6236-4642</span>
+                        </div>
+                        <p class="cert-description" data-translate="cert3_desc">Course lasting more than 53 hours, having passed the tests and acquired the necessary knowledge to be able to carry out enumeration, identification, and exploitation of vulnerable systems.</p>
+                        <a href="https://hack4u.io/check-certificate/" class="cert-link" target="_blank" rel="noopener noreferrer">
+                            <span data-translate="verify_cert">Verify Certificate</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="cert-header">
+                            <h3 class="cert-title" data-translate="cert4_title">Pending...</h3>
+                            <span class="cert-code">N/A</span>
+                        </div>
+                        <p class="cert-description" data-translate="cert4_desc">Coming soon.</p>
+                        <a href="https://verify.example.com/cert4" class="cert-link" target="_blank" rel="noopener noreferrer">
+                            <span data-translate="verify_cert">Verify Certificate</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="education_title">Education</h2>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="education-photo">
+                        <img src="./images/ern_photo.png" alt="Professional Photo" class="profile-img">
+                        <div class="photo-overlay"></div>
+                    </div>
+                    <div class="education-info">
+                        <div class="terminal">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">education.sh</span>
+                            </div>
+                            <div class="terminal-content">
+                                <p>$ cat education.txt</p>
+                                <p class="output">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <p class="output"><strong data-translate="edu_degree">Engineering in Information Technology and Digital Innovation</strong></p>
+                                <p class="output" data-translate="edu_university">Universidad Politécnica de Sinaloa | 2024 - 2027</p>
+                                <p class="output">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <p class="output"><strong data-translate="edu_specialization">Cybersecurity Specialization</strong></p>
+                                <p class="output">Hack4u Academy | 2023 - Present</p>
+                                <p class="output">Hack the Box Academy | 2023 - Present</p>
+                                <p class="output">Hack the Box Labs | 2024 - Present</p>
+                                <p class="output">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <p class="output"><strong data-translate="edu_achievements">Key Achievements:</strong></p>
+                                <p class="output" data-translate="edu_achievement1">• Completed the Web Penetration Tester path from HTB Academy</p>
+                                <p class="output" data-translate="edu_achievement2">• Active CTF competitor</p>
+                                <p class="output" data-translate="edu_achievement3">• Open-source security tools contributor</p>
+                                <p class="cursor">_</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact_title">Contact</h2>
+            <div class="contact-content">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">contact.sh</span>
+                    </div>
+                    <div class="terminal-content">
+                        <p>$ ./contact.sh --help</p>
+                        <p class="output" data-translate="contact_methods">Available contact methods:</p>
+                        <p class="output">  --email    h4xthan@protonmail.com</p>
+                        <p class="output">  --linkedin linkedin.com/in/h4xthan</p>
+                        <p class="output">  --github   github.com/h4xthan</p>
+                        <p class="output">  --twitter  @h4xthan_sec</p>
+                        <p class="cursor">_</p>
+                    </div>
+                </div>
+                
+                <!-- Added CV download section -->
+                <div class="cv-download">
+                    <div class="cv-card">
+                        <div class="cv-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 data-translate="cv_title">Download CV</h3>
+                        <p data-translate="cv_description">Get my complete resume with all my experience and skills</p>
+                        <a href="./cv/H4XTHAN_CV.pdf" class="cv-btn" download data-translate="cv_button">
+                            <span>Download PDF</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Added language translation script -->
+    <script src="script.js"></script>
+</body>
+</html>
